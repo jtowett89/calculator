@@ -1,0 +1,13 @@
+.display {
+  height: 3em;
+  padding: 1em;
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  text-align: right;
+}
+.my_btn {
+  width: 100%;
+  margin-bottom: 1em;
+}
