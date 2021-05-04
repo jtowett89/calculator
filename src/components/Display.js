@@ -9,7 +9,6 @@ class Display extends Component {
   render() {
     return (
       <input
-        onChange={this.props.change}
         value={this.props.result}
         className="display col-md-6 offset-md-3"
       />

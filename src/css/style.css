@@ -1,3 +1,7 @@
+html,
+body {
+  overflow-x: hidden;
+}
 .display {
   height: 3em;
   padding: 1em;
@@ -11,3 +15,64 @@
   width: 100%;
   margin-bottom: 1em;
 }
+/*Header*/
+.myheader {
+  background-color: black;
+  height: 100px;
+  width: 100vw;
+}
+
+.meme {
+  font-family: "Calibri";
+  color: #fff !important;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+/*Header*/
+
+/*Footer*/
+.myfooter {
+  width: 100%;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: -1em;
+}
+
+.foot {
+  padding: 1em;
+  color: #fff;
+}
+/*Footer*/
+
+/*My Headings*/
+.mytitles {
+  height: 2em;
+  letter-spacing: 1px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  width: 100%;
+  padding-top: 1em;
+}
+
+.mytitles::after {
+  background-color: #900c3f;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 100px;
+}
+/*My Headings*/

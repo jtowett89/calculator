@@ -8,8 +8,11 @@ class Btn extends Component {
   }
   render() {
     return (
-      <div className={`${this.props.btnClass}`}>
-        <button onClick={this.props.onClick} className="my_btn btn btn-primary">
+      <div className={this.props.btnClass}>
+        <button
+          onClick={this.props.onClick}
+          className={`my_btn btn btn-primary`}
+        >
           {this.props.symbol}
         </button>
       </div>
